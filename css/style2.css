@@ -1,0 +1,47 @@
+*{
+    box-sizing: border-box;
+ }
+ body {
+    background-color: aqua;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+nav {
+    background-color: black;
+    height:50px;
+}
+nav ul{
+    margin:0;
+    padding:0;
+    overflow:hidden;
+    height: 50px;
+}
+nav ul li {
+    float: left;
+    list-style: none;
+    
+
+}
+nav ul li a {
+    text-decoration: none;
+    display: block;   
+    text-align: center;
+    padding: 14px 16px;
+    font-size: 20px;
+    color: white;
+}
+nav ul li a:hover {
+    color: blue; 
+}
+
+footer{
+    height: 60px;
+    background: black;
+    width: 100%;
+    bottom: 0;
+    position: absolute;
+    
+}
+footer p{
+    color: white;
+    text-align: center;
+}

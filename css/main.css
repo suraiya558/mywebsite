@@ -1,0 +1,23 @@
+*{
+  box-sizing: border-box;
+}
+body{
+    background: url('../img/WIN_20190809_104132.JPG');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.btn-explore{
+    border: 0;
+    margin-top: 28%;
+    margin-left: 45%;
+    padding: 15px 55px;
+    border-radius: 5px;
+    font-size: 20px;
+    background-color: darkorange;
+    color: white;
+    cursor: pointer;
+}
+.btn-explore:hover{
+     background-color: green;
+     transition: 1s;
+}
